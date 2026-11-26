@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bananenbrood Klassiek met Kaneel · Smaakvol</title>
+  <title>Suikervrij Bananenbrood · Smaakvol</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     * {
@@ -132,7 +132,6 @@
       line-height: 1.7;
     }
 
-    /* Ingrediëntenlijst met hoeveelheid links uitgelijnd */
     .ingredienten-lijst {
       list-style: none;
       padding: 1.2rem 1.5rem;
@@ -169,7 +168,6 @@
       padding-top: 0.4rem;
     }
 
-    /* Instructies met genummerde cirkels */
     .instructies-lijst {
       list-style: none;
       padding: 0;
@@ -217,6 +215,20 @@
       line-height: 1.6;
     }
 
+    .tip-box {
+      background: #fff6e9;
+      border-left: 4px solid #e67e22;
+      border-radius: 12px;
+      padding: 1rem 1.2rem;
+      margin-top: 0.5rem;
+      color: #5c4a3c;
+      font-size: 0.95rem;
+    }
+
+    .tip-box strong {
+      color: #e67e22;
+    }
+
     footer {
       text-align: center;
       margin-top: 3rem;
@@ -252,38 +264,37 @@
     </a>
 
     <article class="recept-detail">
-      <div class="detail-hero" style="background-image: url('Bananenbrood-klassiek-met-kaneel.png');">
-        <span class="badge">Bakken</span>
+      <div class="detail-hero" style="background-image: url('https://images.unsplash.com/photo-1606101273945-e9eba91c0dcf?w=1200&auto=format&fit=crop');">
+        <span class="badge">Bakken · Suikervrij</span>
       </div>
       <div class="detail-content">
-        <h1>Bananenbrood Klassiek met Kaneel</h1>
+        <h1>Suikervrij Bananenbrood</h1>
 
         <div class="detail-meta">
-          <span><i class="fas fa-clock"></i> 65 min (20 voorbereiding + 45 bakken)</span>
-          <span><i class="fas fa-user-friends"></i> 12 personen</span>
-          <span><i class="fas fa-birthday-cake"></i> Cakevorm 28 × 10 cm</span>
+          <span><i class="fas fa-clock"></i> 1 uur (15 min voorbereiding + 40–55 min bakken)</span>
+          <span><i class="fas fa-user-friends"></i> 10–12 personen</span>
+          <span><i class="fas fa-birthday-cake"></i> Cakevorm 28 cm</span>
         </div>
 
         <section class="detail-section">
           <h2><i class="fas fa-info-circle"></i> Beschrijving</h2>
-          <p>Een klassiek bananenbrood met een warme kaneelsmaak. Heerlijk bij de thee of het ontbijt, en perfect om rijpe bananen een tweede leven te geven.</p>
+          <p>Een heerlijk suikervrij bananenbrood dat natuurlijk gezoet is met rijpe bananen en honing of dadels. Het is glutenvrij, bevat geen geraffineerde suiker en is heerlijk smeuïig dankzij de kokosmelk en roomboter. Perfect voor een verantwoord ontbijt of tussendoortje!</p>
         </section>
 
         <section class="detail-section">
           <h2><i class="fas fa-shopping-basket"></i> Ingrediënten</h2>
           <ul class="ingredienten-lijst">
             <li><span class="kopje">— Beslag —</span></li>
-            <li><span class="hoeveelheid">110 g</span><span>zachte boter + wat extra, om in te vetten</span></li>
-            <li><span class="hoeveelheid">80 g</span><span>lichte basterdsuiker</span></li>
-            <li><span class="hoeveelheid">2</span><span>eieren</span></li>
-            <li><span class="hoeveelheid">3</span><span>rijpe bananen</span></li>
-            <li><span class="hoeveelheid">210 g</span><span>bloem</span></li>
-            <li><span class="hoeveelheid">2 tl</span><span>gist</span></li>
-            <li><span class="hoeveelheid">3 tl</span><span>kaneelpoeder</span></li>
-            <li><span class="hoeveelheid">¼ tl</span><span>zout</span></li>
-            <li><span class="kopje">— Garnering —</span></li>
-            <li><span class="hoeveelheid">1</span><span>banaan</span></li>
-            <li><span class="hoeveelheid">40 g</span><span>lichte basterdsuiker</span></li>
+            <li><span class="hoeveelheid">6 grote</span><span>eieren</span></li>
+            <li><span class="hoeveelheid">naar smaak</span><span>kokosmelk</span></li>
+            <li><span class="hoeveelheid">2 el</span><span>honing of 10 dadels, fijngemalen</span></li>
+            <li><span class="hoeveelheid">80 g</span><span>roomboter, gesmolten</span></li>
+            <li><span class="hoeveelheid">100 g</span><span>kokosmeel</span></li>
+            <li><span class="hoeveelheid">70 g</span><span>amandelmeel</span></li>
+            <li><span class="hoeveelheid">1 tl</span><span>Keltisch zeezout</span></li>
+            <li><span class="hoeveelheid">2 grote</span><span>rijpe en zachte bananen</span></li>
+            <li><span class="hoeveelheid">2 handjes</span><span>rozijnen, kort geweekt in lauwwarm water</span></li>
+            <li><span class="hoeveelheid">2 tl</span><span>natriumbicarbonaat (bicarbonaat, zuiveringszout of wijnsteenzuur)</span></li>
           </ul>
         </section>
 
@@ -291,30 +302,41 @@
           <h2><i class="fas fa-list-ol"></i> Instructies</h2>
           <ol class="instructies-lijst">
             <li>
-              <span class="stap-titel">Oven voorverwarmen en boter kloppen</span>
-              <span class="stap-tekst">Verwarm de oven voor op 180 °C. Klop in een kom de boter met de basterdsuiker.</span>
+              <span class="stap-titel">Verwarm de oven voor</span>
+              <span class="stap-tekst">Verwarm de oven voor op 180 °C (heteluchtoven 170 °C), met het rek in het midden. Beboter een cakeblik van 28 cm.</span>
             </li>
             <li>
-              <span class="stap-titel">Eieren en bananen toevoegen</span>
-              <span class="stap-tekst">Doe de eieren er een voor een bij. Prak de bananen fijn en voeg deze onder voortdurend kloppen aan het botermengsel toe.</span>
+              <span class="stap-titel">Eieren luchtig kloppen</span>
+              <span class="stap-tekst">Doe de eieren in een kom met een beetje zout en klop ze luchtig met de hand of de mixer.</span>
+            </li>
+            <li>
+              <span class="stap-titel">Banaan en dadels toevoegen</span>
+              <span class="stap-tekst">Prak de bananen fijn en doe ze samen met de dadels (of honing) bij de eieren.</span>
+            </li>
+            <li>
+              <span class="stap-titel">Kokosmelk en boter erbij</span>
+              <span class="stap-tekst">Doe wat kokosmelk en de gesmolten roomboter erbij en mix goed door elkaar.</span>
             </li>
             <li>
               <span class="stap-titel">Droge ingrediënten mengen</span>
-              <span class="stap-tekst">Meng in een andere kom de bloem, de gist, het kaneelpoeder en het zout. Roer dit droge mengsel door het bananenmengsel.</span>
+              <span class="stap-tekst">Doe de kokosmeel en amandelmeel erbij en klop goed door. Check of het beslag een vladikte heeft; voeg waar nodig meer kokosmelk toe.</span>
             </li>
             <li>
-              <span class="stap-titel">Vorm vullen</span>
-              <span class="stap-tekst">Vet de cakevorm met boter in. Schep het beslag erin.</span>
-            </li>
-            <li>
-              <span class="stap-titel">Garneren</span>
-              <span class="stap-tekst">Snijd voor de garnering de banaan in de lengte in tweeën en leg de twee helften boven op het bananabread. Bestrooi met de basterdsuiker.</span>
+              <span class="stap-titel">Bicarbonaat en rozijnen</span>
+              <span class="stap-tekst">Voeg als laatste het bicarbonaat toe en mix dit er snel en kort door. Spatel nog snel de geweekte rozijnen erdoor.</span>
             </li>
             <li>
               <span class="stap-titel">Bakken</span>
-              <span class="stap-tekst">Zet de vorm 45 minuten in de oven. Laat het bananabread lauwwarm worden voordat je het uit de vorm haalt.</span>
+              <span class="stap-tekst">Zet het bananenbrood direct in de oven. Bak gedurende 40–55 minuten. Check eventueel even met een satéprikker of het gaar is.</span>
             </li>
           </ol>
+        </section>
+
+        <section class="detail-section">
+          <h2><i class="fas fa-lightbulb"></i> Tips</h2>
+          <div class="tip-box">
+            <strong>Tip:</strong> Laat het bananenbrood volledig afkoelen voordat je het aansnijdt, zo blijft het mooi van structuur. Bewaar het in een afgesloten trommel of in de koelkast. Je kunt het ook invriezen, per plak verpakt.
+          </div>
         </section>
       </div>
     </article>
